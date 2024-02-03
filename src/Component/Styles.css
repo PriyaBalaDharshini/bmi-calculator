@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(212, 183, 240);
+
+}
+
+.container {
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: -10px 10px 10px 10px rgb(189, 134, 240);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+}
+
+.imageBox1 {
+    width: 200px
+}
+
+.imageBox1>img {
+    height: 190px;
+    width: 190px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 1px rgb(189, 134, 240);
+}
+
+.imageBox1 .image-1 {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+.imageBox1 .image-2 {
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+}
+
+.data {
+    padding: 20px;
+    width: 450px;
+}
+
+h2 {
+    color: rgb(128, 17, 233);
+}
+
+.input-container {
+    margin: 10px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    /* margin-bottom: 5px; */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid rgb(189, 134, 240);
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.error>p {
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+
+.buttons {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: rgb(164, 114, 211);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+}
+
+.clear {
+    background-color: rgb(255, 98, 0);
+    margin-left: 20px;
+    padding: 0px 45px;
+}
+
+.results {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: 2px solid rgb(189, 134, 240);
+
+}
+
+.results p:first-child {
+    color: rgb(128, 17, 233);
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
